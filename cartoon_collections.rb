@@ -3,7 +3,7 @@ def roll_call_dwarves(array)
 end
 
 def summon_captain_planet(planateer_calls)
-  array.collect do |planateer|
+  planateer_calls.collect do |planateer|
     planateer.capitalize << "!"
   end
 end
